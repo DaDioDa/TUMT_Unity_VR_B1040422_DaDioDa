@@ -25,12 +25,9 @@ public class stage : MonoBehaviour
     {
         showHP();
 
+        bulletTimeOver();
+   
 
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            
-        }
-        Debug.Log(state);
 
         
 
@@ -41,9 +38,7 @@ public class stage : MonoBehaviour
                 break;
             case 2:
                 shoot.GetComponent<shoot>().enabled = true;
-                anim.SetBool("shoot", true);
-                bulletTime();
-                bullettimeeffect.SetActive(true);
+                anim.SetBool("shoot", true);              
                 InvokeRepeating("timergo", 1, 1);
                 break;
             case 3:
@@ -53,8 +48,6 @@ public class stage : MonoBehaviour
                 Destroy(shoot.GetComponent<shoot>());
                 anim.SetBool("dead", true);
                 Invoke("winla", 4);
-                bullettimeeffect.SetActive(false);
-                bulletTimeOver();
                 break;
         }
     }
@@ -63,20 +56,21 @@ public class stage : MonoBehaviour
     /// <summary>
     /// 子彈時間
     /// </summary>
-    void bulletTime()
+    public void bulletTime()
     {
         Time.timeScale = 0.2f;
         Time.fixedDeltaTime = Time.timeScale * .02f;
-
+        bullettimeeffect.SetActive(true);
     }
 
     /// <summary>
     /// 恢復正常時間
     /// </summary>
-    void bulletTimeOver()
+     void bulletTimeOver()
     {
-        Time.timeScale += 1 * Time.fixedUnscaledDeltaTime;
+        Time.timeScale += 1 * Time.unscaledDeltaTime;
         Time.timeScale = Mathf.Clamp(Time.timeScale, 0f, 1f);
+        bullettimeeffect.SetActive(false);
     }
 
     /// <summary>

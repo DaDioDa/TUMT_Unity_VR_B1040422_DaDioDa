@@ -69,31 +69,37 @@
     <Compile Include="Assets\shoot.cs" />
     <Compile Include="Assets\stage.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Martin/Desktop/TUMT_Unity_VR_B1040422_Martin/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Martin/Desktop/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Martin/Desktop/TUMT_Unity_VR_B1040422_Martin/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Martin/Desktop/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Martin/Desktop/TUMT_Unity_VR_B1040422_Martin/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Martin/Desktop/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Martin/Desktop/TUMT_Unity_VR_B1040422_Martin/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Martin/Desktop/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Martin/Desktop/TUMT_Unity_VR_B1040422_Martin/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Martin/Desktop/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Martin/Desktop/TUMT_Unity_VR_B1040422_Martin/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Martin/Desktop/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>C:/Users/Martin/Desktop/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Martin/Desktop/TUMT_Unity_VR_B1040422_Martin/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Martin/Desktop/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>C:/Users/Martin/Desktop/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Martin/Desktop/TUMT_Unity_VR_B1040422_Martin/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Martin/Desktop/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Martin/Desktop/TUMT_Unity_VR_B1040422_Martin/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Martin/Desktop/Unity_VR_B1040422_Martin/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -273,7 +279,7 @@
       <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/Users/Martin/Desktop/TUMT_Unity_VR_B1040422_Martin/Unity_VR_B1040422_Martin/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/Martin/Desktop/Unity_VR_B1040422_Martin/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

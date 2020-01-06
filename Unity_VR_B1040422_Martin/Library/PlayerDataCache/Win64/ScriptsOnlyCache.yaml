@@ -307,6 +307,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9840}
     - Class: 114
+      Script: {instanceID: 9872}
+    - Class: 114
       Script: {instanceID: 9912}
     - Class: 114
       Script: {instanceID: 9948}
@@ -338,6 +340,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10788}
     - Class: 114
       Script: {instanceID: 10818}
+    - Class: 114
+      Script: {instanceID: 10930}
     - Class: 114
       Script: {instanceID: 10936}
     - Class: 114
@@ -1733,4 +1737,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/matrix.unity
-  playerPath: C:/Users/Martin/Desktop/B1040422/Unity_VR_B1040422_Martin.exe
+  playerPath: C:/Users/Martin/Desktop/TUMT_Unity_VR_B1040422_DaDioDa/B1040422/Unity_VR_B1040422_Martin.exe
